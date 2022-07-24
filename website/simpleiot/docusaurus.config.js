@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.png',
   organizationName: 'awslabs',
   trailingSlash: false,
-  projectName: 'simpleiot',
+  projectName: 'simpleiot-build',
   deploymentBranch: 'gh-pages',
   i18n: {
     defaultLocale: 'en',
