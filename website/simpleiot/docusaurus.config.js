@@ -17,6 +17,10 @@ const config = {
   trailingSlash: false,
   projectName: 'simpleiot',
   deploymentBranch: 'gh-pages',
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
   presets: [
     [
       'classic',
