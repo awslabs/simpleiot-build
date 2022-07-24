@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'SimpleIOT',
   tagline: 'Connected devices made easy.',
-  url: 'https://awslabs.github.io/simpleiot-build',
-  baseUrl: '/',
+  url: 'https://awslabs.github.io/simpleiot-build/',
+  baseUrl: '/simpleiot-build/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
