@@ -25,11 +25,11 @@ jobs:
           npm install
           npm run build
       - name: Deploy to Github pages
-          if: success()
-          uses: crazy-max/ghaction-github-pages@v2
-          with:
-            target-branch: gh-pages
-            build_dir: website/simpleiot/build
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target-branch: gh-pages
+          build_dir: website/simpleiot/build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
