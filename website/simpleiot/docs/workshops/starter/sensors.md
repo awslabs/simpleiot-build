@@ -60,7 +60,7 @@ Now that you know the parts involved, let's connect everything we'll need to the
 ```
 
 :::tip
-**Pro Tip**: Set the environment variable `IOT_PROJECT` to the name of your project and you can leave out the `--project={project}` in all subsequent commands. Check out [Joining the Team](/docs/workshops/starter/team-member) to see how if you haven't already done so. We'll be doing this going forward!
+**Pro Tip**: Set the environment variable `IOT_PROJECT` to the name of your project and you can leave out the `--project={project}` in all subsequent commands. Check out [Joining the Team](team-member) to see how if you haven't already done so. We'll be doing this going forward!
 
 On the Mac Terminal or iTerm:
 ```
@@ -82,7 +82,7 @@ On Windows Powershell:
 
 **Yet Another Pro Tip**
 
-You can also set the environment variable `IOT_MODEL` to the name of your project and then leave out the `--model=SensorModel` in all subsequent commands. Again, check out [Joining the Team](team-members) to see how. We'll be doing this going forward as well. 
+You can also set the environment variable `IOT_MODEL` to the name of your project and then leave out the `--model=SensorModel` in all subsequent commands. Again, check out [Joining the Team](team-member) to see how. We'll be doing this going forward as well. 
 
 On the Mac Terminal or iTerm:
 ```

@@ -12,6 +12,5 @@ This section will cover how the data is handled and drill down into the implemen
 - [Data Flow](flow)
 - [Data vs. Events](events)
 - [MQTT Topics](mqtt)
-- [JSON Payload](json)
 - [Storing data in datalake](datalake)
 - [Raw RDS database access](dbaccess)

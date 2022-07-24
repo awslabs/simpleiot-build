@@ -16,7 +16,7 @@ Under the Arduino system, the configuration will look like this:
 
 The Sketch will include SimpleIOT as an additional library and provide certain items (detailed below) to configure and provision the device. Once compiled and flashed, the sketch will securely connect to AWS IOT and allow send/receive of data to the cloud.
 
-The type of information that can be exchanged is totally up to you. You can define key/values in the description of the [Model](/docs/documentation/cli/model]) and send data to the cloud via a call like:
+The type of information that can be exchanged is totally up to you. You can define key/values in the description of the [Model](/docs/documentation/cli/model) and send data to the cloud via a call like:
 
 ```
   iot->set("temperature", 78.9);

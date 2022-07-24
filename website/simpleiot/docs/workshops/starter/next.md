@@ -5,7 +5,7 @@ title: Next Steps
 
 You are now ready to explore the world of connected devices and to generate your own device data. 
 
-For those looking for more in-depth information there is extensive documentation on the [Command-Line-Interface](/docs/documentation/cli/intro), the [Arduino Client SDK](/docs/documentation/sdk/arduino/intro), and what happens to the [data](/docs/docmentation/data) you are sending tothe cloud and what you can do with it.
+For those looking for more in-depth information there is extensive documentation on the [Command-Line-Interface](/docs/documentation/cli/intro), the [Arduino Client SDK](/docs/documentation/sdk/arduino/intro), and what happens to the [data](/docs/documentation/data/intro) you are sending tothe cloud and what you can do with it.
 
 [M5Stack](https://m5stack.com/), the manufacturer of the IoT EduKit, [sells a wide range of sensors and actuators](https://shop.m5stack.com/collections/m5-sensor) with which you can experiment.
 

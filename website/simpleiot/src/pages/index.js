@@ -1,16 +1,15 @@
 import React from 'react';
 import clsx from 'clsx';
-// import BrowserOnly from '@docusaurus/BrowserOnly';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
-import HomepageValue from '../components/HomepageValue';
-import HomepageBenefits from '../components/HomepageBenefits';
-import HomepageUses from '../components/HomepageUses';
-import HomepageStarterKit from '../components/HomepageStarterKit';
-import EduKit3d from '../components/edukit3d'
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomepageValue from '@site/src/components/HomepageValue';
+import HomepageBenefits from '@site/src/components/HomepageBenefits';
+import HomepageUses from '@site/src/components/HomepageUses';
+import HomepageStarterKit from '@site/src/components/HomepageStarterKit';
+import EduKit3d from '@site/src/components/edukit3d'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
