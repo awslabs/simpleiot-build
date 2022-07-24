@@ -1,0 +1,205 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+ /* Importing fonts */
+
+ /* Heading Font */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Body Font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #A166FF;
+  --ifm-color-primary-dark: #7539d4;
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: #0e0320;
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: #d1b5ff;
+  --ifm-code-font-size: 95%;
+  --secondary-text: #666;
+  --ifm-footer-background-color: #000;
+}
+
+/* Dark Styles */
+html[data-theme="dark"] {
+  --ifm-navbar-background-color: #000;
+  --collapse-button-bg-color-dark: #fff;
+  --ifm-button-background-color: #000;
+  --ifm-color-primary-darkest: #666;
+  --ifm-heading-color: #fff;
+  background-color: black;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* Typography */
+h1, h2, h3, h4, .footer__title {
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+}
+
+/* Hero */
+.hero  {
+  align-items:center;
+  min-height: 400px;
+}
+
+.hero.heroBanner_src-pages-index-module {
+  text-align: left;
+}
+
+.hero-content {
+  z-index: 9;
+}
+
+.hero .buttons_src-pages-index-module {
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.hero .buttons_src-pages-index-module .button{
+margin-bottom: 1rem;
+}
+
+.hero .hero__subtitle {
+  width:100%;
+}
+
+.hero--primary {
+  --ifm-hero-background-color: var(--ifm-font-color-base-inverse);
+  --ifm-hero-text-color: var(--ifm-color-primary);
+}
+
+.hero__subtitle {
+  width: 50%;
+  color: var(--collapse-button-bg-color-dark);
+}
+
+.hero-sketch {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero-sketch pre{
+  z-index: 9;
+}
+
+#edukit-container {
+  position: absolute;
+  display: block;
+  z-index: 1;
+  width: 40%;
+  height: 70%;
+  margin-left: -150px;
+  margin-top: -100px;
+}
+
+model-viewer#reveal {
+    --poster-color: transparent;
+  }
+#edukit-outer {
+  height: 150%;
+}
+
+#edukit-content {
+  /*background-color: darkred;*/
+  height: 100%;
+  width: 100%;
+}
+
+/* uses */
+.uses_src-components-HomepageUses-module .container .row {
+  justify-content: space-between;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #000;
+}
+
+@media screen and (max-width: 375px) {
+
+  .hero .buttons_src-pages-index-module {
+    flex-direction: column;
+  }
+
+  .uses_src-components-HomepageUses-module .container .row {
+    flex-direction: column;
+  }
+}
+
+/* Announcement banner */
+
+:root {
+  --docusaurus-announcement-bar-height: auto !important;
+}
+
+div[class^="announcementBar"][role="banner"] {
+  border-bottom-color: black;
+
+  button.close {
+    svg {
+      fill: white;
+    }
+  }
+}
+
+div[class^="announcementBarContent"] {
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 30px;
+
+  a {
+    text-decoration: underline;
+    display: inline-block;
+    color: white !important;
+
+    :hover {
+      color: gray !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .announcement {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .announcement {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 6px 30px;
+  }
+}
+
+.white-icon {
+  color: white;
+}
+
+.white-border {
+  border-color: white;
+}

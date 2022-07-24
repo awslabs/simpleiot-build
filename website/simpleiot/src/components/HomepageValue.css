@@ -1,0 +1,19 @@
+#value ul {
+    clear: both;
+}
+
+#value li {
+    margin-bottom: 1rem;
+    list-style-position: inside;
+    color:var(--secondary-text);
+}
+
+#value .row .col {
+    padding-bottom: 2rem;
+}
+
+#value li.title {
+    list-style: none;
+    margin-block-end: 0;
+    color:black;
+}

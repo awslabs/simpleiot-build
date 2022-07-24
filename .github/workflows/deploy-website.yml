@@ -1,0 +1,35 @@
+name: publish-docusaurus
+on:
+  push:
+    branches: [main]
+
+  # Including this allows it to be invoked from the Actions tab on github
+  #
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out latest repo
+        uses: actions/checkout@v2
+      # Install node
+      - name: Set up Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+      # Install docusaurus
+      - name: Build Docusaurus website
+        run: |
+          cd website/simpleiot
+          npm install
+          npm run build
+      - name: Deploy to Github pages
+          if: success()
+          uses: crazy-max/ghaction-github-pages@v2
+          with:
+            target-branch: gh-pages
+            build_dir: website/simpleiot/build
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

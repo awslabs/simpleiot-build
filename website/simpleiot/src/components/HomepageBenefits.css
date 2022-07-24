@@ -1,0 +1,37 @@
+#benefits {
+    padding: 2rem 0 3rem;
+    margin-bottom: 2rem;
+}
+
+#benefits .row .col.benefits {
+    padding: 2rem 0;
+}
+
+#benefits h2 {
+    text-align: center;
+    font-size: 2rem;
+    color:var(--ifm-color-primary);
+}
+
+#benefits dl {
+    margin:0 5vw 0;
+    display: block;
+}
+
+#benefits dt, #benefits dd {
+    padding:.2rem 0;
+}
+
+#benefits dt {
+    float:left;
+    clear: both;
+    border-bottom:1px solid var(--ifm-color-primary);
+    font-weight: bold;
+}
+
+#benefits dd {
+    float: right;
+    color:var(--ifm-color-primary-darkest);
+    margin-inline-start: 0px;
+    margin-bottom: 1.5rem;
+}

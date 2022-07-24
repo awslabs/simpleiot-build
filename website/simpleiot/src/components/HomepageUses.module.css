@@ -1,0 +1,24 @@
+.uses {
+    padding: 2rem 0;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .usesImg {
+    height:100px;
+    width:100px;
+    margin-bottom:1rem;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+  }
+
+  .usesImg:hover {
+    transform: scale(1.1);
+  }
+  
+  .uses h3 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  
