@@ -9,7 +9,7 @@ const config = {
   title: 'SimpleIOT',
   tagline: 'Connected devices made easy.',
   url: 'https://simpleiot.net',
-  baseUrl: '/',
+  baseUrl: '/simpleiot-build/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
