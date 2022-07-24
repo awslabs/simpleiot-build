@@ -6,19 +6,19 @@ title: Welcome
 # Welcome to SimpleIOT
 
 <div align="center">
-<img src="/img/intro/cloud-glow.png" />
+<img src="/simpleiot-build/img/intro/cloud-glow.png" />
 </div>
 
 What if someone told you that in 30 minutes, you could go from this:
 
 <div align="center">
-<img src="/img/intro/drawing-pad.png" width="60%"/>
+<img src="/simpleiot-build/img/intro/drawing-pad.png" width="60%"/>
 </div>
 
 To this:
 
 <div align="center">
-<img src="/img/workshops/starter/sensordemo-color-change.jpg" width="60%" />
+<img src="/simpleiot-build/img/workshops/starter/sensordemo-color-change.jpg" width="60%" />
 </div>
 
 Here's the short version:
@@ -56,13 +56,13 @@ iot firmware flash --zip=sensordemo-arduino-esp32.zip
 There are so many things you can do:
 
 <div align="center">
-<img src="/img/intro/overview.png" width="70%"/>
+<img src="/simpleiot-build/img/intro/overview.png" width="70%"/>
 </div>
 
 Check your AWS account. Your cloud infrastructure should look like this:
 
 <div align="center">
-<img src="/img/data/architecture.png" width="100%"/>
+<img src="/simpleiot-build/img/data/architecture.png" width="100%"/>
 </div>
 
 🏆 **Congratulations**! 
@@ -85,5 +85,5 @@ If you haven't picked up a Starter Kit yet, you can [purchase one here](https://
 <br />
 <b>Let's take a peek under the hood...</b>
 <p />
-<a href="/docs/concepts"><img src="/img/intro/touch-icon.png" width="5%"/></a>
+<a href="/docs/concepts"><img src="/simpleiot-build/img/intro/touch-icon.png" width="5%"/></a>
 </div>

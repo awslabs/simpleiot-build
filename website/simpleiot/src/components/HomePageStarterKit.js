@@ -2,7 +2,7 @@ import React from 'react';
 import './HomepageStarterKit.css'
 import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function HomepageStarterKit() {
     return (
@@ -13,7 +13,7 @@ export default function HomepageStarterKit() {
                         <h2>SimpleIOT Starter Bundle</h2>
                         <div>
                             <div id="starter-image">
-                                <img width="70%" src="/img/StarterBundle-med.png" />
+                                <img width="70%" src={useBaseUrl('/img/StarterBundle-med.png')} />
                             </div>
                         </div>
                     </div>

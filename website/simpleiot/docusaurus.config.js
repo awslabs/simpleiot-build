@@ -17,6 +17,7 @@ const config = {
   trailingSlash: false,
   projectName: 'simpleiot-build',
   deploymentBranch: 'gh-pages',
+  staticDirectories: ['static', 'static/img'],
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
