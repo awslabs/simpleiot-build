@@ -52,6 +52,23 @@ Once changes are made, they can be pushed out to the `main` branch.
 
 The Github action workflow file is under: `simpleiot-build/.github/workflows/deploy-website.yml`. Any push to the `main` branch will automatically invoke the build process to automatically update the website on the `gh-pages` branch.
 
+To manually build and push the website, build the site locally and verify there are no errors:
+
+```
+yarn build
+```
+
+Then to deploy to the website:
+
+```
+export GIT_USER="{your-git-user-name}"
+export GIT_PASS="{your-git-password-or-token}"
+export CURRENT_BRANCH="main"
+
+yarn deploy
+```
+
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
