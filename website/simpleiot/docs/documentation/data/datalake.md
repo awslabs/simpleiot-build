@@ -22,13 +22,13 @@ However, doing so is relatively straightforward. The easiest way is to log into 
 - Log in to the AWS Console, navigate to AWS IoT > Message Routine > Rules, and then click on the _Create Rule_ button.
 
 <div align="center">
-<img src="/img/data/iot-rule-create.png" width="90%"/>
+<img src="/simpleiot-build/img/data/iot-rule-create.png" width="90%"/>
 </div>
 
 - Create a rule where messages are routed. For example, you can provide a custom SQL statement to filter only specific messages (based on their [MQTT topic](mqtt), or select all messages to be saved.
 
 <div align="center">
-<img src="/img/data/iot-core-sql.png" width="90%"/>
+<img src="/simpleiot-build/img/data/iot-core-sql.png" width="90%"/>
 </div>
 
 To save everything, specify:
@@ -40,7 +40,7 @@ SELECT * FROM *
 - In the Rule actions section, you can select an "S3 bucket" and specify the parameters needed:
 
 <div align="center">
-<img src="/img/data/iot-rule-s3.png" width="90%"/>
+<img src="/simpleiot-build/img/data/iot-rule-s3.png" width="90%"/>
 </div>
 
 The _S3 URL_ is the URL of an existing S3 bucket. You can create one and select it using the _Browse_ button.

@@ -6,7 +6,7 @@ title: Data vs. Events
 SimpleIOT's simple key/value model allows data to be exchanged to/from the cloud in real-time across different types of devices.
 
 <div align="center">
-<img src="/img/intro/intro-diagram-03.png" width="60%"/>
+<img src="/simpleiot-build/img/intro/intro-diagram-03.png" width="60%"/>
 </div>
 
 <p />
@@ -14,13 +14,13 @@ SimpleIOT's simple key/value model allows data to be exchanged to/from the cloud
 Each device communicates with the cloud via one or more named **Datatype**. These Datatypes are associated with a **Model** definition of a device, each with a unique name.
 
 <div align="center">
-<img src="/img/data/model-datatype.png" width="60%"/>
+<img src="/simpleiot-build/img/data/model-datatype.png" width="60%"/>
 </div>
 
 When a **Device** is created (aka _instantiated_ or _provisioned_), it is based on a **Model** definition and is given a unique serial number. All its **Data** elements are also based on the corresponding **Datatypes**.
 
 <div align="center">
-<img src="/img/data/device-data.png" width="60%"/>
+<img src="/simpleiot-build/img/data/device-data.png" width="60%"/>
 </div>
 <p />
 

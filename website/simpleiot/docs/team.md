@@ -8,7 +8,7 @@ title: Team
 
 <p align="center">
 
-<img src="/img/brain-gears.png" width="40%" />
+<img src="/simpleiot-build/img/brain-gears.png" width="40%" />
 
 </p>
 
@@ -48,9 +48,7 @@ with contributions by:
 This work was supported and encouraged by management at [AWS](https://aws.amazon.com) Envision Engineering:
 
 <p align="left">
-
-<img src="/img/ee-logo.png" width="25%" />
-
+<img src="/simpleiot-build/img/ee-logo.png" width="25%" />
 </p>
 
 

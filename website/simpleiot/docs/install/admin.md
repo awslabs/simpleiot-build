@@ -89,7 +89,7 @@ A series of log messages from Docker will show that the container is getting dow
 
 <p align="center">
 
-<img src="/img/install/bootstrap.png" width="100%" />
+<img src="/simpleiot-build/img/install/bootstrap.png" width="100%" />
 
 </p>
 
@@ -150,7 +150,7 @@ Then visit the AWS Systems Manager (SSM) > Parameter Store, click on the `/simpl
 
 <p align="center">
 
-<img src="/img/install/get-admin-password.png" width="100%" />
+<img src="/simpleiot-build/img/install/get-admin-password.png" width="100%" />
 
 </p>
 
@@ -165,19 +165,19 @@ Inviting others is a **three-step** process:
 <br />
 
 <p align="center">
-<img src="/img/install/team-invite-step.png" width="70%" />
+<img src="/simpleiot-build/img/install/team-invite-step.png" width="70%" />
 </p>
 
 1. Invoke the command to invite someone. This will require entering a valid username and email for the invitee. Next, a secure _invitation file_ and a _private key_ are generated. The administrator must get these to the recipient (via email, text, or any other messaging app).
 <br />
 <p align="center">
-<img src="/img/install/team-join-step.png" width="70%" />
+<img src="/simpleiot-build/img/install/team-join-step.png" width="70%" />
 </p>
 
 2. The recipient will use the _invitation file_ and the _key_ to accept and join the team. They will be prompted to enter a password for that account.
 <br />
 <p align="center">
-<img src="/img/install/team-login-step.png" width="50%" />
+<img src="/simpleiot-build/img/install/team-login-step.png" width="50%" />
 </p>
 
 3. Users can now log in with their username and password.
@@ -195,7 +195,7 @@ To invite individual users, you can use:
 iot team invite --username={team-member username} --email="{recipient email}"
 ```
 <p align="center">
-<img src="/img/install/team-invite-screenshot.png" width="80%" />
+<img src="/simpleiot-build/img/install/team-invite-screenshot.png" width="80%" />
 </p>
 
 This will show the name of an invitation file, ending with _.simpleiot_ and saved in the current directory, as well as a unique _Invite Key_ value.

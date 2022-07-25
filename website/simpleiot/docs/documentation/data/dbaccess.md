@@ -14,7 +14,7 @@ It is designed to ensure that your SimpleIOT infrastructure is not accessible to
 When the [back-end is installed](/docs/install/admin#install-the-back-end), it deploys a set of services on AWS:
 
 <div align="center">
-<img src="/img/data/architecture.png" width="100%"/>
+<img src="/simpleiot-build/img/data/architecture.png" width="100%"/>
 </div>
 
 Databases such as DynamoDB and Timestream collect runtime information on each device. The RDS/Postgres back-end, however, contains information on **Projects**, **Models**, **Datatypes**, and individual **Devices**.
@@ -62,25 +62,25 @@ To ensure authorized access to the database, the bastion host is protected by _S
 If there is a chance your administrator desktop or laptop IP address has changed since the installation, login to the console, and click on the Security Group ID (blue link) next to the security group named `iot_dev_bastion_ssh_sg`:
 
 <div align="center">
-<img src="/img/data/dbaccess-bastion-sg.png" width="90%"/>
+<img src="/simpleiot-build/img/data/dbaccess-bastion-sg.png" width="90%"/>
 </div>
 
 After clicking on the link, you will be shown details on the Security Group. 
 
 <div align="center">
-<img src="/img/data/dbaccess-bastion-edit-sg.png" width="90%"/>
+<img src="/simpleiot-build/img/data/dbaccess-bastion-edit-sg.png" width="90%"/>
 </div>
 
 Select the _Security Group Rule_ under _Inbound Rules_, make sure the SSH rule is selected, and click on _Edit Inbound rules_:
 
 <div align="center">
-<img src="/img/data/dbaccess-bastion-edit-sg-detail.png" width="100%"/>
+<img src="/simpleiot-build/img/data/dbaccess-bastion-edit-sg-detail.png" width="100%"/>
 </div>
 
 The IP address listed is what was automatically detected at install time. If your external IP address has changed, you will need to update this record by clicking on the _Source_ popup and  selecting **My IP**:
 
 <div align="center">
-<img src="/img/data/dbaccess-bastion-edit-sg-myip.png" width="70%"/>
+<img src="/simpleiot-build/img/data/dbaccess-bastion-edit-sg-myip.png" width="70%"/>
 </div>
 <p />
 
@@ -100,28 +100,28 @@ To configure a database browsing application for SSH tunnel access, you will nee
 - Database administrative login and password: This value is generated dynamically at install time and is intentionally not stored or shown anywhere. To obtain the value, you will need to access the AWS Console under [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/)  
 
 <div align="center">
-<img src="/img/data/dbaccess-secretsmanager.png" width="60%"/>
+<img src="/simpleiot-build/img/data/dbaccess-secretsmanager.png" width="60%"/>
 </div>
 <p />
 
 - Click on the Secret Name link to get to the Secret Details page.
 
 <div align="center">
-<img src="/img/data/dbaccess-secretsmanager-detail.png" width="60%"/>
+<img src="/simpleiot-build/img/data/dbaccess-secretsmanager-detail.png" width="60%"/>
 </div>
 <p />
 
 - Click the **Retrieve secret value** button to get to the actual password.
 
 <div align="center">
-<img src="/img/data/dbaccess-secretsmanager-retrieve.png" width="60%"/>
+<img src="/simpleiot-build/img/data/dbaccess-secretsmanager-retrieve.png" width="60%"/>
 </div>
 <p />
 
 - You will be shown the database username, password, hostname, and database name:
 
 <div align="center">
-<img src="/img/data/dbaccess-secretsmanager-secrets.png" width="80%"/>
+<img src="/simpleiot-build/img/data/dbaccess-secretsmanager-secrets.png" width="80%"/>
 </div>
 <p />
 

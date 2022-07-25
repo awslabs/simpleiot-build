@@ -32,7 +32,7 @@ iot toolchain uninstall
 After the toolchain is installed, you can verify that everything is set up correctly by connecting the _AWS IoT EduKit_ device via a USB-C cable. 
 <p align="center">
 
-<img src="/img/workshops/starter/EduKit-USB-Plugin.jpg" width="50%" />
+<img src="/simpleiot/img/workshops/starter/EduKit-USB-Plugin.jpg" width="50%" />
 
 </p>
 
@@ -50,7 +50,7 @@ If you see the following, your installation is complete:
 
 <p align="center">
 
-<img src="/img/install/simpleiot-success.gif" width="40%" />
+<img src="/simpleiot/img/install/simpleiot-success.gif" width="40%" />
 
 </p>
 
@@ -64,19 +64,19 @@ From an administrator's point of view, an invitation is a **three-step** process
 <br />
 
 <p align="center">
-<img src="/img/install/team-invite-step.png" width="70%" />
+<img src="/simpleiot/img/install/team-invite-step.png" width="70%" />
 </p>
 
 1. The administrator generates an invitation with the invitee's unique username and email address. This generates a secure _invitation file_ and a _private key_. The administrator then sends these to the recipient (via email, text, or any other messaging app).
 <br />
 <p align="center">
-<img src="/img/install/team-join-step.png" width="70%" />
+<img src="/simpleiot/img/install/team-join-step.png" width="70%" />
 </p>
 
 2. The recipient (you) will use the _invitation file_ and the _key_ to accept and join the team. You will be prompted to enter a password of your own choosing for that account.
 <br />
 <p align="center">
-<img src="/img/install/team-login-step.png" width="50%" />
+<img src="/simpleiot/img/install/team-login-step.png" width="50%" />
 </p>
 
 3. You can now log in with your own username and password.
@@ -86,9 +86,7 @@ From an administrator's point of view, an invitation is a **three-step** process
 You can join as many **Teams** as you want. However, each should have a unique name. 
 
 <p align="center">
-
-![Intro 1](/img/intro/intro-diagram-04.png)
-
+<img src="/simpleiot/img/intro/intro-diagram-04.png" />
 </p>
 
 The team administrator will invite you by sending you an email or message with an encrypted  _Invitation File_ (ending in `.simpleiot`) and a unique key (in the form of a string, like: `ZkJLQlJVR1p3VFZvY0lGMS1weUdpTF95UlhCd3BDLU00SjZFTkQ2S2JUaz0=`).

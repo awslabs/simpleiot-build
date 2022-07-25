@@ -7,13 +7,13 @@ title: Basic Concepts
 
 There are some easy-to-understand concepts behind SimpleIOT. This short section will help lay the foundation.
 
-But if you're into skipping to the last page of a detective story (no spoilers!) and the following diagram makes sense, feel free to [jump ahead. <img src="/img/circle-arrow-right-solid.svg" width="20" height="20" />](install/intro)
+But if you're into skipping to the last page of a detective story (no spoilers!) and the following diagram makes sense, feel free to [jump ahead. <img src="/simpleiot-build/img/circle-arrow-right-solid.svg" width="20" height="20" />](install/intro)
 
 Otherwise, read on...
 :::
 
 <p align="center">
-<img src="/img/intro/intro-diagram-09.png" width="70%" />
+<img src="/simpleiot-build/img/intro/intro-diagram-09.png" width="70%" />
 </p>
 
 ## Background
@@ -21,17 +21,13 @@ Otherwise, read on...
 SimpleIOT allows you to connect a variety of devices to the cloud. The data can go in both directions if needed.
 
 <p align="center">
-
-![Intro 1](/img/intro/intro-diagram-01.png)
-
+<img src="/simpleiot-build/img/intro/intro-diagram-01.png" />
 </p>
 
 All services and data are owned by you and maintained in your private AWS account. You can have one or more accounts to keep the Data separate.
 
 <p align="center">
-
-![Intro 1](/img/intro/intro-diagram-02.png)
-
+<img src="/simpleiot-build/img/intro/intro-diagram-02.png" />
 </p>
 
 Each account is associated with a single **Team** which you can name to distinguish them from each other. Each _Team_ maintains its own stack of services, users, devices, and data. 
@@ -39,9 +35,7 @@ Each account is associated with a single **Team** which you can name to distingu
 It depends on how you like to organize your projects. In the beginning, one **Team** is good enough. But as you go along, you may want to have, for example, separate **dev**, **test**, and **production** Teams.
 
 <p align="center">
-
-![Intro 1](/img/intro/intro-diagram-03.png)
-
+<img src="/simpleiot-build/img/intro/intro-diagram-03.png" />
 </p>
 
 Note that a single Team can handle many different types of devices. But the main association to keep in mind is:
@@ -55,9 +49,7 @@ Note that a single Team can handle many different types of devices. But the main
 If you want to access different Teams from a single desktop or laptop, you can toggle back and forth between them easily from the command line.
 
 <p align="center">
-
-![Intro 1](/img/intro/intro-diagram-04.png)
-
+<img src="/simpleiot-build/img/intro/intro-diagram-04.png" />
 </p>
 
 Each **Team** maintains its list of users, databases, logs, APIs, device certificates, etc.
@@ -68,7 +60,7 @@ SimpleIOT has a basic notion of how it organizes the data.
 
 <p align="center">
 
-<img src="/img/intro/intro-diagram-05.png" width="70%" />
+<img src="/simpleiot-build/img/intro/intro-diagram-05.png" width="70%" />
 
 </p>
 
@@ -81,7 +73,7 @@ For example, you can create a **Project** to build a variety of hand-held thermo
 
 <p align="center">
 
-<img src="/img/intro/intro-diagram-06.png" width="60%" />
+<img src="/simpleiot-build/img/intro/intro-diagram-06.png" width="60%" />
 
 </p>
 
@@ -91,7 +83,7 @@ Once you've defined your _Model_ and _Datatype_, you can now virtually stamp out
 
 <p align="center">
 
-<img src="/img/intro/intro-diagram-07.png" width="60%" />
+<img src="/simpleiot-build/img/intro/intro-diagram-07.png" width="60%" />
 
 </p>
 
@@ -105,7 +97,7 @@ Remember how each _Model_ had one or more _Datatypes_? Each _Device_ will also h
 
 <p align="center">
 
-<img src="/img/intro/intro-diagram-08.png" width="60%" />
+<img src="/simpleiot-build/img/intro/intro-diagram-08.png" width="60%" />
 
 </p>
 
@@ -121,7 +113,7 @@ Putting it all together:
 
 <p align="center">
 
-<img src="/img/intro/intro-diagram-09.png" width="70%" />
+<img src="/simpleiot-build/img/intro/intro-diagram-09.png" width="70%" />
 
 </p>
 

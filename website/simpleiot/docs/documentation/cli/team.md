@@ -38,7 +38,7 @@ Each Team name maps to an AWS *profile*, which itself defines account access cre
 
 <p align="center">
 
-<img src="/img/team-credentials.png" width="80%" />
+<img src="/simpleiot-build/img/team-credentials.png" width="80%" />
 
 </p>
 

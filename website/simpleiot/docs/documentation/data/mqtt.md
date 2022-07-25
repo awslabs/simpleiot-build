@@ -12,7 +12,7 @@ MQTT works on the principle of a central hub called a _broker_ and one or more P
 The simplest form is a single publisher, a broker, and a single subscriber:
 
 <div align="center">
-<img src="/img/data/mqtt-pub-sub-1-1.png" width="80%"/>
+<img src="/simpleiot-build/img/data/mqtt-pub-sub-1-1.png" width="80%"/>
 </div>
 <p />
 
@@ -124,28 +124,28 @@ Again, the payload can be whatever you want. How the topic naming hierarchy is d
 We showed above a notion of a single publisher, a broker, and a subscriber. This is considered a one-to-one model.
 
 <div align="center">
-<img src="/img/data/mqtt-pub-sub-1-1.png" width="80%"/>
+<img src="/simpleiot-build/img/data/mqtt-pub-sub-1-1.png" width="80%"/>
 </div>
 <p />
 
 MQTT also supports the notion of many publishers (i.e., many devices sending data to the cloud):
 
 <div align="center">
-<img src="/img/data/mqtt-pub-sub-many-1.png" width="80%"/>
+<img src="/simpleiot-build/img/data/mqtt-pub-sub-many-1.png" width="80%"/>
 </div>
 <p />
 
 Also, one publisher and many subscribers (i.e., one device sending data and multiple listeners -- for example, a logging system, a dashboard, a command-line interface, a mobile app, etc.)
 
 <div align="center">
-<img src="/img/data/mqtt-pub-sub-1-many.png" width="80%"/>
+<img src="/simpleiot-build/img/data/mqtt-pub-sub-1-many.png" width="80%"/>
 </div>
 <p />
 
 And, of course, many publishers and many subscribers:
 
 <div align="center">
-<img src="/img/data/mqtt-pub-sub-many-many.png" width="80%"/>
+<img src="/simpleiot-build/img/data/mqtt-pub-sub-many-many.png" width="80%"/>
 </div>
 <p />
 

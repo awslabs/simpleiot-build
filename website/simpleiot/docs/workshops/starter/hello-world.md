@@ -78,13 +78,13 @@ iot firmware flash --zip=hello-world-m5-arduino-esp32.zip
 14. The EduKit will reboot, and the EduKit screen will display a HelloWorld _Connecting_ screen: 
 
    <p align="center">
-   <img src="/img/workshops/starter/HelloWorld-Connecting.png" width="60%" />
+   <img src="/simpleiot-build/img/workshops/starter/HelloWorld-Connecting.png" width="60%" />
    </p>
 
 16. Once connected to the AWS IoT Core generated in the AWS Account (which was created by the Administrator in the SimpleIOT Backend installation) and a secure connection is established, the EduKit screen will display the _Hello World!_ message with a "blue planet and flag" icon. 
    
    <p align="center">
-   <img src="/img/workshops/starter/HelloWorld-Connected.png" width="50%" />
+   <img src="/simpleiot-build/img/workshops/starter/HelloWorld-Connected.png" width="50%" />
    </p>
 
 17. Start a monitor window in the shell of your choice:
@@ -95,7 +95,7 @@ iot device monitor --project={project} --model=HelloWorldModel --serial={serial}
 18. On the EduKit, press each button to see the resulting change in the monitor window. 
 
  <p align="center">
-   <img src="/img/workshops/starter/cli_monitor_buttons.jpg" width="30%" />
+   <img src="/simpleiot-build/img/workshops/starter/cli_monitor_buttons.jpg" width="30%" />
    </p>
 
 The buttons you are pressing are sending a number (1, 2, or 3) to the IoT cloud under the name `button`. Each time you press the button, the message is transmitted to the cloud and broadcasts that the value has changed. 
@@ -119,11 +119,11 @@ iot data set --project={project} --serial={serial} --name=color --value=red
    - From the terminal, you are sending a data value change all the way back to the cloud, where it is transmitted in real-time to the device. The code in the device receives the `color: red` event and changes the globe color accordingly.
 
    <p align="center">
-   <img src="/img/workshops/starter/HelloWorld-set-red.png" width="50%" />
+   <img src="/simpleiot-build/img/workshops/starter/HelloWorld-set-red.png" width="50%" />
    </p>
 
    <p align="center">
-   <img src="/img/workshops/starter/cli_monitor_set.jpg" width="30%" />
+   <img src="/simpleiot-build/img/workshops/starter/cli_monitor_set.jpg" width="30%" />
    </p>
 
 :::note

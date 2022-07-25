@@ -7,7 +7,8 @@ title: Introduction
 
 <p align="center">
 
-<img src="/img/client-sdk.png" width="80%" />
+
+<img src="/simpleiot-build/img/client-sdk.png" width="80%" />
 
 </p>
 

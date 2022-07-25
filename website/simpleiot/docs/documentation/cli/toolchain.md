@@ -50,7 +50,7 @@ iot toolchain available`
 This command prints out a list of toolchains registered with the system.
 
 <p align="center">
-<img src="/img/cli/toolchain-available.png" width="100%" />
+<img src="/simpleiot-build/img/cli/toolchain-available.png" width="100%" />
 </p>
 
 
