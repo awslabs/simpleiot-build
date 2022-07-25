@@ -36,7 +36,7 @@ export default function HomepageStarterKit() {
                     </div>
                 </div>
                 <div className="row">
-                    <h3><FontAwesomeIcon icon={faCircleArrowRight} style={{ color: 'orange' }} /> If you already have a Starter Bundle, please visit the <a href="/docs/workshops/" target="_blank">Workshops</a> to get started.</h3>
+                    <h3><FontAwesomeIcon icon={faCircleArrowRight} style={{ color: 'orange' }} /> If you already have a Starter Bundle, please visit the <a href="/simpleiot-build/docs/workshops/">Workshops</a> to get started.</h3>
                 </div>
             </div>
         </section>
