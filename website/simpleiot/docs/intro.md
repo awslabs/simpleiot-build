@@ -9,7 +9,7 @@ title: Welcome
 <img src="/simpleiot-build/img/intro/cloud-glow.png" />
 </div>
 
-What if someone told you that in 30 minutes, you could go from this:
+What if you could go from this:
 
 <div align="center">
 <img src="/simpleiot-build/img/intro/drawing-pad.png" width="60%"/>
@@ -20,6 +20,8 @@ To this:
 <div align="center">
 <img src="/simpleiot-build/img/workshops/starter/sensordemo-color-change.jpg" width="60%" />
 </div>
+
+In 30 minutes (or less)? 
 
 Here's the short version:
 
