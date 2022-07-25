@@ -4,6 +4,8 @@ This repository contains the sources and tools needed to push out the website an
 
 ![Website](media/launch_webpage.png)
 
+The live site can be [seen here](https://awslabs.github.io/simpleiot-build/).
+
 This repo includes sources to:
 
 - Web-site, built using [Docusaurus](https://docusaurus.io/)
