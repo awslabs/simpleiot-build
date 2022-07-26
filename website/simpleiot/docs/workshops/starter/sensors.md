@@ -8,22 +8,22 @@ title: Fun with Sensors
 Here is a diagram of how all the pieces connect: 
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/sensor-connection.png" />
+<img src="/simpleiot-build/img/workshops/starter/sensor-connection.png" />
 </p>
 
 
 And here's what the actual sensors look like:
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/GPS.png" width="50%" />
+<img src="/simpleiot-build/img/workshops/starter/GPS.png" width="50%" />
 </p>
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/edukit-connector.png" width="80%" />
+<img src="/simpleiot-build/img/workshops/starter/edukit-connector.png" width="80%" />
 </p>
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/Encoder_and_Env.png" width="50%" />
+<img src="/simpleiot-build/img/workshops/starter/Encoder_and_Env.png" width="50%" />
 </p>
 
 Now that you know the parts involved, let's connect everything we'll need to the AWS IoT EduKit:
@@ -32,19 +32,19 @@ Now that you know the parts involved, let's connect everything we'll need to the
 1. Insert the wire on the GPS Unit into Port C on the EduKit as shown below.
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/GPS_to_EduKit.png" width="50%" />
+<img src="/simpleiot-build/img/workshops/starter/GPS_to_EduKit.png" width="50%" />
 </p>
 
 2. Insert the wires from the Encoder and the ENV III into the Grove Connector hub as shown. 
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/Sensor-Wiring.png" width="50%" />
+<img src="/simpleiot-build/img/workshops/starter/Sensor-Wiring.png" width="50%" />
 </p>
 
 3. Insert the wire from the Grove Connector hub into Port A on the EduKit (keep in mind that Port A is next to the USB-C port and is the only port that is NOT labeled).
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/Sensor_to_EduKit.png" width="50%" />
+<img src="/simpleiot-build/img/workshops/starter/Sensor_to_EduKit.png" width="50%" />
 </p>
 
 ### Setting Up Your Sensor Demo Project
@@ -147,15 +147,15 @@ iot device monitor --serial={serial}
 12. Wait until the device is connected to the cloud. Once connected, you should see data on the screen.
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/sensordemo-screen-01.jpg" width="50%" />
+<img src="/simpleiot-build/img/workshops/starter/sensordemo-screen-01.jpg" width="50%" />
 </p>
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/sensordemo-screen-02.jpg" width="50%" />
+<img src="/simpleiot-build/img/workshops/starter/sensordemo-screen-02.jpg" width="50%" />
 </p>
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/sensordemo-screen-03.jpg" width="50%" />
+<img src="/simpleiot-build/img/workshops/starter/sensordemo-screen-03.jpg" width="50%" />
 </p>
    
 13. Rotate the knob on the Encoder, then look at the monitor window to see what is being sent.
@@ -176,12 +176,12 @@ iot data set --project={project} --serial={serial} --name=color --value=red
 ```
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/sensordemo-color-change.jpg" width="70%" />
+<img src="/simpleiot-build/img/workshops/starter/sensordemo-color-change.jpg" width="70%" />
 </p>
 
 
 <p align="center">
-<img src="/simpleiot/img/workshops/starter/sensordemo-led-color.jpg" width="70%" />
+<img src="/simpleiot-build/img/workshops/starter/sensordemo-led-color.jpg" width="70%" />
 </p>
 
 :::tip
