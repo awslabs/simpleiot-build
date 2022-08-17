@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
       # Install node
       - name: Set up Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 18
       # Install docusaurus
@@ -23,6 +23,9 @@ jobs:
         run: |
           cd website/simpleiot
           npm install
+          pwd
+          ls
+          ls src/components
           npm run build
       - name: Deploy to Github pages
         if: success()
