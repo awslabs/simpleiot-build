@@ -22,7 +22,7 @@ jobs:
       - name: Build Docusaurus website
         run: |
           cd website/simpleiot
-          npm install
+          npm ci
           pwd
           ls
           ls src/components
