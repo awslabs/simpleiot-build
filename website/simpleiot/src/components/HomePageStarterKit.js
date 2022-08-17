@@ -10,10 +10,10 @@ export default function HomepageStarterKit() {
             <div className="container">
                 <div className="row">
                     <div className="col col--6">
-                        <h2>SimpleIOT Starter Bundle</h2>
+                        <h2>SimpleIOT Starter Bundle (coming soon)</h2>
                         <div>
                             <div id="starter-image">
-                                <img width="70%" src={useBaseUrl('/img/StarterBundle-med.png')} />
+                                <img width="60%" src={useBaseUrl('/img/StarterBundle-med.png')} />
                             </div>
                         </div>
                     </div>
@@ -22,7 +22,7 @@ export default function HomepageStarterKit() {
                         <br />
                         <ul>
                             <li>All-in-one package. Get started experimenting with a fully-built and connected device in less than 5 minutes.</li>
-                            <li>Includes an ESP32-based processor, wiring, and multiple sensors:</li>
+                            <li>Includes an ESP32-based processor, wiring, and multiple sensors. Individual items can be <a href="/simpleiot-build/docs/workshops/intro">purchased here.</a></li>
                             <ul>
                                 <li>Button press</li>
                                 <li>Color LED</li>

@@ -108,27 +108,25 @@ model-viewer#reveal {
     --poster-color: transparent;
   }
 
-@media screen and not (max-width: 996px) {
+/* Default rules for 3D model -- the media query section overrides some for mobile */
+#edukit-container {
+  position: relative;
+  display: block;
+  z-index: 1;
+  width: 140%;
+  height: 140%;
+  margin-left: -150px;
+  margin-top: -100px;
+}
 
-  #edukit-container {
-    position: relative;
-    display: block;
-    z-index: 1;
-    width: 140%;
-    height: 140%;
-    margin-left: -150px;
-    margin-top: -100px;
-  }
+#edukit-outer {
+  height: 150%;
+}
 
-  #edukit-outer {
-    height: 150%;
-  }
-
-  #edukit-content {
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-  }
+#edukit-content {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 996px) {
@@ -141,13 +139,13 @@ model-viewer#reveal {
   }
   #edukit-content {
     /*background-color: darkred;*/
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
   }
 
   #edukit-outer {
-    height: 90%;
+    height: 100%;
     text-align: center;
   }
 

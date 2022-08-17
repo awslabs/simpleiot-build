@@ -90,7 +90,7 @@ const config = {
             label: 'Team',
           },
           {
-            href: 'https://github.com/awslabs/simpleiot',
+            href: '/docs/github',
             label: 'Github',
             position: 'right',
           },
