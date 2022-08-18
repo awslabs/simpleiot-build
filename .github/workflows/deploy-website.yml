@@ -23,9 +23,15 @@ jobs:
         run: |
           cd website/simpleiot
           npm ci
+          echo "Current directory"
           pwd
+          echo "ls output:"
           ls
+          echo "ls src/components output:"
           ls src/components
+          echo "find output:"
+          find /home/runner/work/simpleiot-build/ -print
+          echo "npm run build output..."
           npm run build
       - name: Deploy to Github pages
         if: success()
