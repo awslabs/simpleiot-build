@@ -151,10 +151,9 @@ model-viewer#reveal {
 
   /* This overrides the hero image dropping height to 0, so we can keep seeing it on mobile phones */
   .hero-sketch {
+    margin-top: 50px;
     min-height: 400px;
-    margin-bottom: -100px;
   }
-
 }
 
 /* uses */
