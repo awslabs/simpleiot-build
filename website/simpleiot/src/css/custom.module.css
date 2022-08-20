@@ -187,12 +187,21 @@ model-viewer#reveal {
 div[class^="announcementBar"][role="banner"] {
   border-bottom-color: black;
 
-  button.close {
-    svg {
-      fill: white;
-    }
-  }
+  /*& button.close {*/
+  /*  & svg {*/
+  /*    fill: white;*/
+  /*  }*/
+  /*}*/
 }
+
+div[class^="announcementBar"][role="banner"] {
+  border-bottom-color: black;
+}
+
+div[class^="announcementBar"][role="banner"] button.close.svg {
+      fill: white;
+}
+
 
 div[class^="announcementBarContent"] {
   line-height: 40px;
@@ -200,16 +209,34 @@ div[class^="announcementBarContent"] {
   font-weight: bold;
   padding: 8px 30px;
 
-  a {
-    text-decoration: underline;
-    display: inline-block;
-    color: white !important;
+  /*a {*/
+  /*  text-decoration: underline;*/
+  /*  display: inline-block;*/
+  /*  color: white !important;*/
 
-    :hover {
-      color: gray !important;
-    }
-  }
+  /*  :hover {*/
+  /*    color: gray !important;*/
+  /*  }*/
+  /*}*/
 }
+
+div[class^="announcementBarContent"] {
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 30px;
+}
+
+div[class^="announcementBarContent"] a {
+  text-decoration: underline;
+  display: inline-block;
+  color: white !important;
+}
+
+div[class^="announcementBarContent"] a :hover {
+      color: gray !important;
+}
+
 
 @media only screen and (max-width: 768px) {
   .announcement {
