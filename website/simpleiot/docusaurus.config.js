@@ -22,7 +22,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  plugins: [require.resolve('docusaurus-plugin-sass')],
   presets: [
     [
       'classic',
@@ -34,7 +33,7 @@ const config = {
           showLastUpdateTime: false
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.module.css'),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
