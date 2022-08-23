@@ -55,7 +55,7 @@ The Github action workflow file is under: `simpleiot-build/.github/workflows/dep
 To manually build and push the website, build the site locally and verify there are no errors:
 
 ```
-yarn build
+npm run build
 ```
 
 Then to deploy to the website:
@@ -65,7 +65,7 @@ export GIT_USER="{your-git-user-name}"
 export GIT_PASS="{your-git-password-or-token}"
 export CURRENT_BRANCH="main"
 
-yarn deploy
+npm run deploy
 ```
 
 
