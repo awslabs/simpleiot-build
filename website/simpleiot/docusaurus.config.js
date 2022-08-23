@@ -9,7 +9,7 @@ const config = {
   title: 'SimpleIOT',
   tagline: 'Connected devices made easy.',
   url: 'https://awslabs.github.io',
-  baseUrl: '/simpleiot-build/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
