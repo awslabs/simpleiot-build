@@ -46,7 +46,7 @@ Used to create the cloud back-end infrastructure. You will be prompted to enter 
 
 <p align="center">
 
-<img src="/simpleiot-build/img/install/bootstrap.png" width="80%" />
+<img src="/img/install/bootstrap.png" width="80%" />
 
 </p>
 

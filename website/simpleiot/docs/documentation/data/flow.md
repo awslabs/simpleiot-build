@@ -8,7 +8,7 @@ title: Data Flow
 Each time the [SimpleIOT Installer](/docs/install/intro) is run, the following set of services are created and stitched together:
 
 <div align="center">
-<img src="/simpleiot-build/img/data/architecture.png" width="100%"/>
+<img src="/img/data/architecture.png" width="100%"/>
 </div>
 
 The system is designed to accept data from devices (via [MQTT](https://mqtt.org/)) as well as programmatically via REST APIs.
@@ -20,19 +20,19 @@ The default system maintains three different data storage mechanisms:
 3. [Amazon Timestream](https://aws.amazon.com/timestream/): A scalable, serverless time series database.
 <p />
 <div align="center">
-<img src="/simpleiot-build/img/data/dataflow.png" width="70%"/>
+<img src="/img/data/dataflow.png" width="70%"/>
 </div>
 
 AWS IOT Core has a built-in rule-based system, where incoming MQTT messages can be filtered based on a SQL-like syntax:
 
 <div align="center">
-<img src="/simpleiot-build/img/data/iot-core-sql.png" width="70%"/>
+<img src="/img/data/iot-core-sql.png" width="70%"/>
 </div>
 
 Messages can then be routed to a variety of destinations:
 
 <div align="center">
-<img src="/simpleiot-build/img/data/iot-target-list.png" width="70%"/>
+<img src="/img/data/iot-target-list.png" width="70%"/>
 </div>
 
 ## Common Data Pathway
@@ -48,7 +48,7 @@ The same API is invoked by the [SimpleIOT Command Line Interface (CLI)](/docs/do
 This way, data may be sent, viewed, or modified, from a variety of sources:
 
 <div align="center">
-<img src="/simpleiot-build/img/data/source-flow.png" width="90%"/>
+<img src="/img/data/source-flow.png" width="90%"/>
 </div>
 
 ## Monitoring Live Data
@@ -63,7 +63,7 @@ You can disable this behavior by modifying an individual [Datatype](/docs/docume
 ## Data Visualization
 
 <div align="center">
-<img src="/simpleiot-build/img/data/data-visualization.png" width="60%"/>
+<img src="/img/data/data-visualization.png" width="60%"/>
 <p />
 </div>
 Once the data has made it to the cloud side, you can make use of the data in a variety of ways:

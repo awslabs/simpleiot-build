@@ -10,7 +10,7 @@ The basic concepts behind the SimpleIOT platform are defined in the [introductio
 Under the Arduino system, the configuration will look like this:
 
 <div align="center">
-<img src="/simpleiot-build/img/arduino/arduino-app.png" width="60%"/>
+<img src="/img/arduino/arduino-app.png" width="60%"/>
 </div>
 <br />
 
@@ -32,12 +32,12 @@ Installing SimpleIOT SDK can either be done using the [Arduino Classic App](http
 Go into the Library Manager, search for `simpleiot`, and install it from there: 
 
 <div align="center">
-<img src="/simpleiot-build/img/arduino/manage-library-app.png" width="90%"/>
+<img src="/img/arduino/manage-library-app.png" width="90%"/>
 </div>
 <br />
 
 <div align="center">
-<img src="/simpleiot-build/img/arduino/manage-library-app-install.png" width="80%"/>
+<img src="/img/arduino/manage-library-app-install.png" width="80%"/>
 </div>
 <br />
 
@@ -46,7 +46,7 @@ Go into the Library Manager, search for `simpleiot`, and install it from there:
 Click on the Library Manager Icon, search for 'simpleiot', and click on Install:
 
 <div align="center">
-<img src="/simpleiot-build/img/arduino/manage-library-ide.png" width="80%"/>
+<img src="/img/arduino/manage-library-ide.png" width="80%"/>
 </div>
 <br />
 
@@ -264,7 +264,7 @@ To summarize, you will need the following items:
 - WiFi router SSID password
 
 <div align="center">
-<img src="/simpleiot-build/img/arduino/basic-layout.png" width="80%"/>
+<img src="/img/arduino/basic-layout.png" width="80%"/>
 </div>
 <br />
 

@@ -3,7 +3,7 @@ id: intro
 title: Introduction
 ---
 <div align="center">
-<img src="/simpleiot-build/img/cli/Slide0.png" width="100%"/>
+<img src="/img/cli/Slide0.png" width="100%"/>
 </div>
 
 Welcome to **SimpleIOT**, a framework for creating and managing cloud-connected devices.
@@ -14,13 +14,13 @@ compilation and flashing to a device.
 You can obtain help on all the available options by issuing the `iot --help` command:
 
 <div align="center">
-<img src="/simpleiot-build/img/cli/cli-help.png" width="70%"/>
+<img src="/img/cli/cli-help.png" width="70%"/>
 </div>
 <br />
 Help on individual commands can be obtained by issuing the command name followed by `--help`:
 <p />
 <div align="center">
-<img src="/simpleiot-build/img/cli/cli-auth-help.png" width="70%"/>
+<img src="/img/cli/cli-auth-help.png" width="70%"/>
 </div>
 <p />
 

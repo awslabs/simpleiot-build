@@ -97,7 +97,7 @@ A series of log messages from Docker will show that the container is getting dow
 
 <p align="center">
 
-<img src="/simpleiot-build/img/install/bootstrap.png" width="100%" />
+<img src="/img/install/bootstrap.png" width="100%" />
 
 </p>
 
@@ -174,6 +174,6 @@ If you see the following, your installation is complete:
 
 <p align="center">
 
-<img src="/simpleiot-build/img/install/simpleiot-success.gif" width="40%" />
+<img src="/img/install/simpleiot-success.gif" width="40%" />
 
 </p>

@@ -3,7 +3,7 @@ id: intro
 title: SimpleIOT Starter Set
 ---
 <p align="left">
-<img src="/simpleiot-build/img/workshops/workshops-header.png" width="80%" />
+<img src="/img/workshops/workshops-header.png" width="80%" />
 </p>
 <hr width="80%" />
 
@@ -53,12 +53,12 @@ So you want to set up your IOT devices in a simpler, more straightforward way ..
 
 <p align="center">
 
-<img src="/simpleiot-build/img/workshops/starter/sensordemo-color-change.jpg" width="60%" />
+<img src="/img/workshops/starter/sensordemo-color-change.jpg" width="60%" />
 
 </p>
 
 <p align="center">
 
-<img src="/simpleiot-build/img/workshops/starter/sensordemo-led-color.jpg" width="60%" />
+<img src="/img/workshops/starter/sensordemo-led-color.jpg" width="60%" />
 
 </p>

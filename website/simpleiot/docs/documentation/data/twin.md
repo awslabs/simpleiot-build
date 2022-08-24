@@ -10,7 +10,7 @@ In the SimpleIOT universe, the definition is intentionally kept lightweight and 
 When a physical Lightbulb is seen for the first time on the system, it is assigned a **Project**, a **Model**, and a unique serial number to help disambiguate it from other instances.
 
 <div align="center">
-<img src="/simpleiot-build/img/data/model-twin.png" width="60%"/>
+<img src="/img/data/model-twin.png" width="60%"/>
 </div>
 <p />
 
@@ -25,7 +25,7 @@ Under this definition, the instance of the **Device** is a live Digital Twin. Th
 You can retrieve a log of all settings and activities for each device from the DynamoDB database and the Timestream time-series feed. 
 
 <div align="center">
-<img src="/simpleiot-build/img/data/dynamodb-console.png" width="90%"/>
+<img src="/img/data/dynamodb-console.png" width="90%"/>
 </div>
 <p />
 
