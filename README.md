@@ -4,7 +4,7 @@ This repository contains the sources and tools needed to push out the website an
 
 ![Website](media/launch_webpage.png)
 
-The live site can be [seen here](https://awslabs.github.io/simpleiot-build/).
+The live site can be [seen here](https://simpleiot.net).
 
 This repo includes sources to:
 
@@ -12,7 +12,7 @@ This repo includes sources to:
 - Documentation sources
 - Training materials (including workshops, etc.)
 
-The output will be auto-deployed to Github pages and can be accessed via [https://simpleiot.net/](https://simpleiot.net/).
+The output will be auto-deployed to Github pages and can be accessed via [https://simpleiot.net/](https://simpleiot.net).
 
 These are the current documentation channels:
 

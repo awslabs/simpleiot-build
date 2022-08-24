@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'SimpleIOT',
   tagline: 'Connected devices made easy.',
-  url: 'https://awslabs.github.io',
+  url: 'https://simpleiot.net',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -45,7 +45,7 @@ const config = {
      announcementBar: {
         id: 'starter_kit',
         content:
-          'Welcome Starter Bundle users! <a href="/simpleiot-build/docs/workshops/intro">Click here</a> to go to the Workshop.',
+          'Welcome Starter Bundle users! <a href="/docs/workshops/intro">Click here</a> to go to the Workshop.',
         backgroundColor: '#18191B',
         textColor: '#9969F7',
         isCloseable: false,
