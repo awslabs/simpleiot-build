@@ -37,6 +37,12 @@ favorite electronics parts retailer. Here are the components:
         <td><a href="https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/U032/11200933" target="_blank">DigiKey</a></td>
         <td><a href="https://www.mouser.com/ProductDetail/M5Stack/U032?qs=81r%252BiQLm7BQgn8Ceko0E8Q%3D%3D" target="_blank">Mouser</a></td>
     </tr>
+    <tr>
+        <td>1 to 3 HUB Expansion Unit</td>
+        <td><a href="https://shop.m5stack.com/products/mini-hub-module" target="_blank">M5Stack shop</a></td>
+        <td><a href="https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/U006/12088551" target="_blank">DigiKey</a></td>
+        <td><a href="https://www.mouser.com/ProductDetail/M5Stack/U006?qs=81r%252BiQLm7BQbnPE67wm64g%3D%3D" target="_blank">Mouser</a></td>
+    </tr>
 </table>
 
 <br />
