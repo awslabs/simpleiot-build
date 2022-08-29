@@ -50,7 +50,7 @@ export default function Home() {
     // <BrowserOnly>
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Connected Devices, Made Easy.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
