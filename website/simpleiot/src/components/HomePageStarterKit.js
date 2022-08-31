@@ -22,7 +22,7 @@ export default function HomepageStarterKit() {
                         <br />
                         <ul>
                             <li>All-in-one package. Get started experimenting with a fully-built and connected device in less than 5 minutes.</li>
-                            <li>Includes an ESP32-based processor, wiring, and multiple sensors. Individual items can be <a href="/simpleiot-build/docs/workshops/intro">purchased here.</a></li>
+                            <li>Includes an ESP32-based processor, wiring, and multiple sensors. Individual items can be <a href="/docs/workshops/intro">purchased here.</a></li>
                             <ul>
                                 <li>Button press</li>
                                 <li>Color LED</li>
@@ -36,7 +36,7 @@ export default function HomepageStarterKit() {
                     </div>
                 </div>
                 <div className="row">
-                    <h3><FontAwesomeIcon icon={faCircleArrowRight} style={{ color: 'orange' }} /> If you already have a Starter Bundle, please visit the <a href="/simpleiot-build/docs/workshops/intro">Workshops</a> to get started.</h3>
+                    <h3><FontAwesomeIcon icon={faCircleArrowRight} style={{ color: 'orange' }} /> If you already have a Starter Bundle, please visit the <a href="/docs/workshops/intro">Workshops</a> to get started.</h3>
                 </div>
             </div>
         </section>
