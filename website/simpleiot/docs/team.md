@@ -43,6 +43,27 @@ with contributions by:
 
 ---
 
+### Account Team
+
+| Name             |                                           LinkedIn                                           |
+|------------------|:--------------------------------------------------------------------------------------------:|
+| Jordan Kisor     |      [![Jordan LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/jordankisor/)      |
+| Arthur Basbaum   |     [![Arthur LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/arthurbasbaum/)     |
+| Alex Klinghoffer |     [![Alex LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/alexklinghoffer/)     |
+| Raj Salvaji      |   [![Raj LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/raj-salvaji-754b526/)    |
+| Randy Klohmann   | [![Randy LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/randy-klohmann-8a274b4/) |
+
+
+---
+
+### EduKit Development
+
+| Name              | LinkedIn | GitHub |
+| ------------------| :----: | :----: |
+| Rashed Talukder | [![Rashed LinkedIn](/img/LI-In-Bug.png)](https://linkedin.com/in/rashedtalukder) | [![Rashed Github](/img/github-icon.png)](https://github.com/rashedtalukder) |
+
+---
+
 ### Management 
 
 This work was supported and encouraged by management at [AWS](https://aws.amazon.com) Envision Engineering:

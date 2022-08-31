@@ -131,7 +131,7 @@ const config = {
               {
                 label: 'Website Source',
                 href: 'https://github.com/awslabs/simpleiot-build',
-              },
+              }
             ],
           },
         ],
