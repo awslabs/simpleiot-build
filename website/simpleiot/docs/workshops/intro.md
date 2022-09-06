@@ -9,7 +9,7 @@ title: SimpleIOT Starter Set
 
 # Shopping List
 
-You can purchase a SimpleIOT Starter kit from <a href="https://shop.m5stack.com/products/aws-iot-edukit-simpleiot-starter-bundle-v1-0" target="_blank">directly from the manufacturer here.</a>
+You can purchase a SimpleIOT Starter kit <a href="https://shop.m5stack.com/products/aws-iot-edukit-simpleiot-starter-bundle-v1-0" target="_blank">directly from the manufacturer here.</a>
 
 If a Starter Kit is not available, you can purchase the individual items directly from the manufacturer or your
 favorite electronics parts retailer. Here are the components:
