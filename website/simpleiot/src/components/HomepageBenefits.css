@@ -31,7 +31,7 @@
 
 #benefits dd {
     float: right;
-    color:var(--ifm-color-primary-darkest);
+    color:var(--secondary-text);
     margin-inline-start: 0px;
     margin-bottom: 1.5rem;
 }
