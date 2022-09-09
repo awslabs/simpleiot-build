@@ -17,17 +17,17 @@ with contributions by:
 
 ### Architecture / Design / Development
 
-| Name              | LinkedIn | GitHub |
-| ------------------| :----: | :----: |
-| Ramin Firoozye    | [![Ramin LinkedIn](/img/LI-In-Bug.png)](https://linkedin.com/in/raminfiroozye) | [![Ramin Github](/img/github-icon.png)](https://github.com/framinlab) |
-| Ian Latchmansingh | [![Ian LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/ianlatchmansingh/) | |
+| Name              |                                          LinkedIn                                           | GitHub |
+| ------------------|:-------------------------------------------------------------------------------------------:| :----: |
+| Ramin Firoozye    |       [![Ramin LinkedIn](/img/LI-In-Bug.png)](https://linkedin.com/in/raminfiroozye)        | [![Ramin Github](/img/github-icon.png)](https://github.com/framinlab) |
+| Ian Latchmansingh |    [![Ian LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/ianlatchmansingh/)     | |
 | Christopher Spruell | [![Chris LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/chris-spruell-7a89653/) | |
-| Michael Walker | [![Michael LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/michael-walker714/) |
-| Paul Vincent | [![Paul LinkedIn](/img/LI-In-Bug.png)](https://linkedin.com/in/paul-vincent-67769b7/) | [![Paul Github](/img/github-icon.png)](https://github.com/PaulVincent707) |
-| Adam Harder | [![Adam LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/adamfxtd/) | |
-| Kellan Cartledge | [![Kellan LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/kellan-cartledge/) | |
-| Dan Malloy | [![Dan LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/madlinux/) | |
-| Mark Baker | | |
+| Michael Walker |  [![Michael LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/michael-walker714/)  |
+| Paul Vincent |    [![Paul LinkedIn](/img/LI-In-Bug.png)](https://linkedin.com/in/paul-vincent-67769b7/)    | [![Paul Github](/img/github-icon.png)](https://github.com/PaulVincent707) |
+| Adam Harder |        [![Adam LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/adamfxtd/)        | |
+| Kellan Cartledge |   [![Kellan LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/kellan-cartledge/)   | |
+| Dan Malloy |        [![Dan LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/madlinux/)         | |
+| Mark Baker |  [![Mark LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/mark-baker-38684010/)   | |
 
 ---
 
