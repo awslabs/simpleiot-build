@@ -51,7 +51,7 @@ Now that you know the parts involved, let's connect everything we'll need to the
 
 1. Create a Project with the `sensordemo` template, making sure to use a unique name for the Project that does not match any other Team member's: 
 ```
-  iot project add –-name=Sensor-{your name}  --template=sensordemo
+  iot project add --name=Sensor-{your name}  --template=sensordemo
 ```
 
 3. List the components installed:
