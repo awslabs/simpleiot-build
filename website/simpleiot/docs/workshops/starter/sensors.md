@@ -49,9 +49,9 @@ Now that you know the parts involved, let's connect everything we'll need to the
 
 ### Setting Up Your Sensor Demo Project
 
-1. Create a Project with the SensorDemo template, making sure to use a unique name for the Project that does not match any other Team member's: 
+1. Create a Project with the `sensordemo` template, making sure to use a unique name for the Project that does not match any other Team member's: 
 ```
-  iot project add –-name=Sensor-{your name}  --template=SensorDemo
+  iot project add –-name=Sensor-{your name}  --template=sensordemo
 ```
 
 3. List the components installed:
@@ -75,22 +75,22 @@ On Windows Powershell:
 3. List the Model information:
 
 ```
- iot model list --name=SensorModel --full
+ iot model list --name=SensorDemoModel --full
 ```
 
 :::tip
 
 **Yet Another Pro Tip**
 
-You can also set the environment variable `IOT_MODEL` to the name of your project and then leave out the `--model=SensorModel` in all subsequent commands. Again, check out [Joining the Team](team-member) to see how. We'll be doing this going forward as well. 
+You can also set the environment variable `IOT_MODEL` to the name of your project and then leave out the `--model=SensorDemoModel` in all subsequent commands. Again, check out [Joining the Team](team-member) to see how. We'll be doing this going forward as well. 
 
 On the Mac Terminal or iTerm:
 ```
- export IOT_MODEL="SensorModel"
+ export IOT_MODEL="SensorDemoModel"
 ```
 On Windows Powershell:
 ```
- $env:IOT_MODEL="SensorModel"
+ $env:IOT_MODEL="SensorDemoModel"
 ```
 
 :::
@@ -101,7 +101,7 @@ iot datatype list
 ```
 If you didn't set the evironment variables, enter:
 ```
-iot datatype list --project={project} --model=SensorModel
+iot datatype list --project={project} --model=SensorDemoModel
 ``` 
 
 7. As detailed in the [Hello World](hello-world) instructions, make sure your WiFi credentials are set appropriately:
@@ -123,9 +123,9 @@ On Mac:
 iot device add --serial={unique serial number}
 ```
 
-9. Generate the code:
+9. Generate the code (_note: names are case-sensitive_).
 ```
-iot firmware generate --serial={serial number}
+iot firmware generate --serial={serial number} --name=sensordemo
 ```
 
 :::tip

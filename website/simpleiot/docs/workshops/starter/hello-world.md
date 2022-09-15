@@ -11,6 +11,7 @@ Let's kick things off by deploying your first SimpleIOT Project with a tradition
 ```
   iot project add --name={your name}-hello --template=HelloWorldM5
 ```
+*Please note that all names are case-sensitive.*
 
 2. Confirm your Project now exists:
 ```
@@ -57,10 +58,18 @@ Your serial number may be provided to you, or you can create a unique serial num
 iot device list --project={project} --serial={serial} --full
 ```
 
-8. We're ready now to generate the code for *HelloWorld*:
+8. We're ready now to generate the code for *HelloWorld*. There is a full version of the command, but you can use the shortened version that uses the default value:
+
+Short version:
+```
+  iot firmware generate --project={project} --serial={serial} --name="hello-world-m5"
+```
+
+Full version:
 ```
   iot firmware generate --project={project} --serial={serial} --manufacturer=espressif --processor=esp32 --os=arduino --name="hello-world-m5" --version="1.0.0"
 ```
+
 
 9. The previous step generated a zip file called _hello-world-m5-arduino-esp32.zip_. Feel free to open it and inspect the contents to see what was created by SimpleIOT. 
 
