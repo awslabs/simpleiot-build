@@ -7,6 +7,10 @@ title: Hello World
 
 Let's kick things off by deploying your first SimpleIOT Project with a traditional "Hello, World!" example. 
 
+:::danger
+On Windows, you will need to use Powershell to be able to use most of the following commands.
+:::
+
 1. Issue the following command, substituting your name (without the braces and with no spaces or special characters) where noted: 
 ```
   iot project add --name={your name}-hello --template=HelloWorldM5
@@ -45,13 +49,19 @@ On Mac:
 SimpleIOT will *NOT* work over wifi if your wifi settings require secondary authentication (such as common hotel WiFi requirements to login via a browser interface). If this is the case, you will need to use a different network (e.g., on a wireless hotspot).
 :::
 
-6. Add a Device to your Project (this will also generate the certificates required):
+:::tip
+The ESP32 chipset only works with 2.4GHz WiFi. Please make sure your wifi or hotspot allow devices using 802.11 a/b/g.
+:::
+
+6. Add a Device to your Project (this will also generate the certificates required).
+
+:::tip
+Each device instance needs a unique serial number that will be provided to you. It could be anything as long as it's unique for each Project. We recommend creating one with number with letters, numbers, and dash or underline characters (it should not contain any special characters such as exclamation points, slashes, etc.). An example of a serial number could be: `HW-001`, HW-002`, etc.
+:::
+
 ```
   iot device add --project={project} --model=HelloWorldModel --serial={your serial number}`
 ```
-
-Your serial number may be provided to you, or you can create a unique serial number with letters, numbers, and dash or underline characters (we advise you avoid special characters such as exclamation points, slashes, etc.). An example of a serial number is: `HW-001`.
-
 
 7. Now verify that your Device was registered: 
 ```
