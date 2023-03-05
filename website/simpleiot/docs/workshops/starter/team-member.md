@@ -13,7 +13,7 @@ So a few things must be done before you can continue:
 
 ## Installing the Toolchain
 
-The system can be used to flash and build firmware for an AWS IOT Edukit device. First, you must install the **Arduino CLI** and the ESP-32 built toolchain, along with all the necessary libraries.
+The system can be used to flash and build firmware for a Core2 device in the  AWS IoT Kit SimpleIOT Starter Bundle. First, you must install the **Arduino CLI** and the ESP-32 built toolchain, along with all the necessary libraries.
 
 A single command does all this for you:
 
@@ -29,22 +29,22 @@ If you get any errors, make sure you uninstall the toolchain, fix the problem, t
 iot toolchain uninstall
 ```
 
-After the toolchain is installed, you can verify that everything is set up correctly by connecting the _AWS IoT EduKit_ device via a USB-C cable. 
+After the toolchain is installed, you can verify that everything is set up correctly by connecting the Core2 device via a USB-C cable. 
 <p align="center">
 
-<img src="/img/workshops/starter/EduKit-USB-Plugin.png" width="50%" />
+<img src="/img/workshops/starter/Kit-USB-Plugin.png" width="50%" />
 
 </p>
 
 On the Mac, you should have installed as part of the pre-requisites the Silicon Labs [CP210x USB to UART Bridge drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers). You may be prompted to find the downloaded driver and install it on Windows.
 
-To upload a pre-built binary firmware example, make sure the EduKit device is plugged in to your computer, then run:
+To upload a pre-built binary firmware example, make sure the Core2 device is plugged in to your computer, then run:
 
 ```python
 iot firmware m5demo
 ```
 
-You may be prompted to choose the USB port depending on how many USB devices you have connected to your system. If there is only one EduKit device, that will be selected. The system will then flash the EduKit with the demo binary. 
+You may be prompted to choose the USB port depending on how many USB devices you have connected to your system. If there is only one Core2 device, that will be selected. The system will then flash the Core2 with the demo binary. 
 
 If you see the following, your installation is complete:
 
@@ -186,4 +186,4 @@ It is recommended that each person create a project prefixed with a unique name 
 
 Congratulations! 
 
-Now that you are logged in, you can proceed to create an example connected device example. [The _Starter Workshop_](/docs/workshops/intro) will show you how to use the <a href="https://shop.m5stack.com/products/aws-iot-edukit-simpleiot-starter-bundle-v1-0" target="_blank">_SimpleIOT EduKit Starter Kit_</a>.
+Now that you are logged in, you can proceed to create an example connected device example. [The _Starter Workshop_](/docs/workshops/intro) will show you how to use the <a href="Core2 for AWS IoT Kit SimpleIOT Starter Bundle V1.0" target="_blank">_Core2 for AWS IoT Kit SimpleIOT Starter Bundle V1.0_</a>.

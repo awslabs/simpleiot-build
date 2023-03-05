@@ -36,7 +36,7 @@ iot toolchain reset
 
 The CLI can download and install a toolchain for compiling, linking, and flashing firmware to a device. The toolchain support is modularized so that additional toolchains can be added in the future. At the time of this release, there is support for the [Arduino-CLI](https://www.arduino.cc/pro/cli) targeted at the Espressif ESP-32.
 
-This is to support the [AWS IOT EduKit](https://aws.amazon.com/iot/edukit/), which is at the core of the SimpleIOT Startup Bundle.
+This is to support the [M5Stack Core2](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit), which is at the core of the SimpleIOT Startup Bundle.
 
 The toolkit and all its dependencies are installed in `~/.simpleiot/_toolchain` directory (unless the path is over-ridden). The mechanism supports multiple versions of the same toolchain to support backward compatibility. 
 

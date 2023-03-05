@@ -118,7 +118,7 @@ iot firmware m5demo
     [--port=usb-port]
 ```
 
-The `m5demo` command flashes a pre-rendered Arduino image to an M5Stack device, like the AWS IOT EduKit device. 
+The `m5demo` command flashes a pre-rendered Arduino image to an M5Stack device. 
 
 ### Parameters
 

@@ -83,7 +83,7 @@ Full version:
 
 9. The previous step generated a zip file called _hello-world-m5-arduino-esp32.zip_. Feel free to open it and inspect the contents to see what was created by SimpleIOT. 
 
-10. Now plug your AWS IoT EduKit into your computer using the USB-C cable.
+10. Now plug your M5Stack Core2 into your computer using the USB-C cable.
 
 11. Build and flash the code via the CLI:
 ```
@@ -94,13 +94,13 @@ iot firmware flash --zip=hello-world-m5-arduino-esp32.zip
 
 13. Wait until connected.
 
-14. The EduKit will reboot, and the EduKit screen will display a HelloWorld _Connecting_ screen: 
+14. The M5Stack Core2 will reboot, and the device screen will display a HelloWorld _Connecting_ screen: 
 
    <p align="center">
    <img src="/img/workshops/starter/HelloWorld-Connecting.png" width="60%" />
    </p>
 
-16. Once connected to the AWS IoT Core generated in the AWS Account (which was created by the Administrator in the SimpleIOT Backend installation) and a secure connection is established, the EduKit screen will display the _Hello World!_ message with a "blue planet and flag" icon. 
+16. Once connected to the AWS IoT Core generated in the AWS Account (which was created by the Administrator in the SimpleIOT Backend installation) and a secure connection is established, the device screen will display the _Hello World!_ message with a "blue planet and flag" icon. 
    
    <p align="center">
    <img src="/img/workshops/starter/HelloWorld-Connected.png" width="50%" />
@@ -111,7 +111,7 @@ iot firmware flash --zip=hello-world-m5-arduino-esp32.zip
 iot device monitor --project={project} --model=HelloWorldModel --serial={serial}
 ```
 
-18. On the EduKit, press each button to see the resulting change in the monitor window. 
+18. On the device, press each button to see the resulting change in the monitor window. 
 
  <p align="center">
    <img src="/img/workshops/starter/cli_monitor_buttons.jpg" width="30%" />
@@ -129,7 +129,7 @@ The `iot monitor` command is listening for all changes to the data values of thi
 iot device monitor --raw --project={project} --model=HelloWorldModel --serial={serial}
 ```
 
-15. Send a command from the console via wifi to the SimpleIOT Backend and ultimately to the EduKit: 
+15. Send a command from the console via wifi to the SimpleIOT Backend and ultimately to the device: 
 ```
 iot data set --project={project} --serial={serial} --name=color --value=red
 ```

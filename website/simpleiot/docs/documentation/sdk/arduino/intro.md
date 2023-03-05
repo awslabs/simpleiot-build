@@ -90,7 +90,7 @@ arduino-cli lib install --git-url https://github.com/awslabs/simpleiot-arduino.g
 
 ## Next Steps
 
-Once installed, you can create a *HelloWorld* and a *SensorDemo* project from the IDE's SimpleIOT `Examples` menu. These examples are designed to work with the [M5Stack Core2 ESP32](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit) or [AWS IOT EduKit](https://aws.amazon.com/iot/edukit/) devices.
+Once installed, you can create a *HelloWorld* and a *SensorDemo* project from the IDE's SimpleIOT `Examples` menu. These examples are designed to work with the [M5Stack Core2 ESP32](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit) devices.
 
 Alternately, you can purchase the [SimpleIOT Starter Kit](https://m5stack.com), which contains all the devices and sensors to build the sensor demo example.
 

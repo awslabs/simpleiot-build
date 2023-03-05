@@ -22,7 +22,8 @@ export default function HomepageStarterKit() {
                         <br />
                         <ul>
                             <li>All-in-one package. Get started experimenting with a fully-built and connected device in less than 5 minutes.</li>
-                            <li>Includes an ESP32-based processor, wiring, and multiple sensors. <a href="https://shop.m5stack.com/products/aws-iot-edukit-simpleiot-starter-bundle-v1-0" target="_blank">Purchase a starter kit here.</a> Individual items can also be <a href="/docs/workshops/intro">purchased here.</a></li>
+                            <li>Includes an ESP32-based processor, wiring, and multiple sensors. <a href="https://shop.m5stack.com/collections/m5-controllers/products/aws-iot-edukit-simpleiot-starter-bundle-v1-0
+" target="_blank">Purchase a starter kit here.</a> Individual items can also be <a href="/docs/workshops/intro">purchased here.</a></li>
                             <ul>
                                 <li>Button press</li>
                                 <li>Color LED</li>

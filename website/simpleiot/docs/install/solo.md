@@ -13,7 +13,6 @@ We will be using the SimpleIOT Command-Line-Interface (CLI) to:
 
 - Set up the back-end
 - Install the Arduino-CLI toolchain.
-- Flash the demo firmware on an AWS EduKit device (optional)
 
 Once done, you can proceed to create a _Hello World_ application. If you obtain a SimpleIOT Starter Kit, you will be able to proceed and build the _Sensor Demo_.
 
@@ -22,7 +21,7 @@ Once done, you can proceed to create a _Hello World_ application. If you obtain 
 For all Users:
 
 - Latest version of Python from [https://python.org](https://python.org) (minimum 3.9+)
-- Silicon Labs [CP210x USB to UART Bridge drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers). Under Windows, once you plug in an AWS EduKit device, it should automatically install this driver. You will have to download the above driver and manually install it if it fails. Under MacOS, you will need to download and install it manually.
+- Silicon Labs [CP210x USB to UART Bridge drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers). Under Windows, once you plug in an M5Stack Core2 device, it should automatically install this driver. You will have to download the above driver and manually install it if it fails. Under MacOS, you will need to download and install it manually.
 
 Additionally, to be able to install the back-end:
 
@@ -144,7 +143,7 @@ If you get any errors, check the _Troubleshooting_ section, uninstall, fix the p
 
 ## Installing the Toolchain
 
-The system can be used to flash and build firmware for an AWS IOT Edukit device. First, you must install the **Arduino CLI** and the ESP-32 built toolchain, along with all the necessary libraries.
+The system can be used to flash and build firmware for an M5Stack Core2 device. First, you must install the **Arduino CLI** and the ESP-32 built toolchain, along with all the necessary libraries.
 
 A single command does all this for you:
 
@@ -152,7 +151,7 @@ A single command does all this for you:
 iot toolchain install
 ```
 
-This command downloads and installs the **arduino-cli** command and then configures it. It installs all the necessary 3rd party components, including the [simpleiot-srduino](https://github.com/awslabs/simpleiot-arduino) library.
+This command downloads and installs the **arduino-cli** command and then configures it. It installs all the necessary 3rd party components, including the [simpleiot-arduino](https://github.com/awslabs/simpleiot-arduino) library.
 
 If you get any errors, make sure you uninstall the toolchain, fix the problem, then try again:
 
@@ -160,15 +159,15 @@ If you get any errors, make sure you uninstall the toolchain, fix the problem, t
 iot toolchain uninstall
 ```
 
-After installing the toolchain, you can verify that everything is set up correctly by connecting the _AWS IoT EduKit_ device via a USB-C cable. On the Mac, you should have installed the CP210x USB to UART drivers as part of the pre-requisite. On Windows, you may be prompted to locate the downloaded driver and have it installed.
+After installing the toolchain, you can verify that everything is set up correctly by connecting the M5Stack Core2 device via a USB-C cable. On the Mac, you should have installed the CP210x USB to UART drivers as part of the pre-requisite. On Windows, you may be prompted to locate the downloaded driver and have it installed.
 
-To upload a pre-built binary firmware example, make sure the EduKit device is plugged in, then run:
+To upload a pre-built binary firmware example, make sure the M5Stack Core2 device is plugged in, then run:
 
 ```python
 iot firmware m5demo
 ```
 
-You may be prompted to choose the USB port depending on how many USB devices you have connected to your system. If there is only one EduKit device, that will be selected. The system will then flash the EduKit with the demo binary. 
+You may be prompted to choose the USB port depending on how many USB devices you have connected to your system. If there is only one M5Stack Core2 device, that will be selected. The system will then flash the device with the demo binary. 
 
 If you see the following, your installation is complete:
 

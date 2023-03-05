@@ -9,16 +9,12 @@ title: SimpleIOT Starter Set
 
 # Shopping List
 
-You can purchase a SimpleIOT Starter kit <a href="https://shop.m5stack.com/products/aws-iot-edukit-simpleiot-starter-bundle-v1-0" target="_blank">directly from the manufacturer here.</a>
-
-If a Starter Kit is not available, you can purchase the individual items directly from the manufacturer or your
-favorite electronics parts retailer. Here are the components:
+You can purchase the individual items directly from the manufacturer or your favorite electronics parts retailer. Here are the components:
 
 <table>
     <tr>
-        <td>AWS IoT EduKit</td>
-        <td><a href="https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit-for-aws-iot-edukit" target="_blank">M5Stack shop</a></td>
-        <td><a href="https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/K010-AWS/13562927" target="_blank">DigiKey</a></td>
+        <td>M5Stack Core2 ESP32 IoT Development Kit</td>
+        <td><a href="https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit" target="_blank">M5Stack shop</a></td>
         <td><a href="https://www.mouser.com/ProductDetail/M5Stack/K010-AWS?qs=pUKx8fyJudDCzqLmZY12tw%3D%3D" target="_blank">Mouser</a></td>
     </tr>
     <tr>

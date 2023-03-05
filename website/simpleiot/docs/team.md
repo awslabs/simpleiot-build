@@ -12,7 +12,7 @@ title: Team
 
 </p>
 
-**SimpleIOT** was developed by the Envision Engineering Team at [Amazon Web Services](https://aws.amazon.com)
+**SimpleIOT** was developed by the Prototyping and Cloud Engineering (PACE) Team at [Amazon Web Services](https://aws.amazon.com)
 with contributions by:
 
 ### Architecture / Design / Development
@@ -28,6 +28,7 @@ with contributions by:
 | Kellan Cartledge |   [![Kellan LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/kellan-cartledge/)   | |
 | Dan Malloy |        [![Dan LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/madlinux/)         | |
 | Mark Baker |  [![Mark LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/mark-baker-38684010/)   | |
+| Ben Willett |  [![Ben LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/benwillett/)   | [![Ben Github](/img/github-icon.png)](https://github.com/BenWillettAWS) |
 
 ---
 
@@ -56,27 +57,13 @@ with contributions by:
 
 ---
 
-### EduKit Development
-
-| Name              | LinkedIn | GitHub |
-| ------------------| :----: | :----: |
-| Rashed Talukder | [![Rashed LinkedIn](/img/LI-In-Bug.png)](https://linkedin.com/in/rashedtalukder) | [![Rashed Github](/img/github-icon.png)](https://github.com/rashedtalukder) |
-
----
-
 ### Management 
 
-This work was supported and encouraged by management at [AWS](https://aws.amazon.com) Envision Engineering:
-
-<p align="left">
-<img src="/img/ee-logo.png" width="25%" />
-</p>
-
+This work was supported and encouraged by management at [AWS](https://aws.amazon.com):
 
 | Name              |  LinkedIn |
 | ------------------| :----: |
 | Don Southard | [![Don LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/ldonsouthard/) |
-| Cameron Groves | [![Cameron LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/camerongroves/) |
 | James Weaver | [![James LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/jamesrweaver/) |
 | Rama Thamman | [![Rama LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/ramathamman/) |
 | Todd Varland | [![Todd LinkedIn](/img/LI-In-Bug.png)](https://www.linkedin.com/in/toddvarland/) |

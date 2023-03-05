@@ -19,20 +19,20 @@ And here's what the actual sensors look like:
 </p>
 
 <p align="center">
-<img src="/img/workshops/starter/edukit-connector.png" width="80%" />
+<img src="/img/workshops/starter/kit-connector.png" width="80%" />
 </p>
 
 <p align="center">
 <img src="/img/workshops/starter/Encoder_and_Env.png" width="50%" />
 </p>
 
-Now that you know the parts involved, let's connect everything we'll need to the AWS IoT EduKit:
+Now that you know the parts involved, let's connect everything we'll need to the Core2 for AWS IoT Kit SimpleIOT Starter Bundle:
 
 
-1. Insert the wire on the GPS Unit into Port C on the EduKit as shown below.
+1. Insert the wire on the GPS Unit into Port C on the Core2 as shown below.
 
 <p align="center">
-<img src="/img/workshops/starter/GPS_to_EduKit.png" width="50%" />
+<img src="/img/workshops/starter/GPS_to_Kit.png" width="50%" />
 </p>
 
 2. Insert the wires from the Encoder and the ENV III into the Grove Connector hub as shown. 
@@ -41,10 +41,10 @@ Now that you know the parts involved, let's connect everything we'll need to the
 <img src="/img/workshops/starter/Sensor-Wiring.png" width="50%" />
 </p>
 
-3. Insert the wire from the Grove Connector hub into Port A on the EduKit (keep in mind that Port A is next to the USB-C port and is the only port that is NOT labeled).
+3. Insert the wire from the Grove Connector hub into Port A on the Core2 (keep in mind that Port A is next to the USB-C port and is the only port that is NOT labeled).
 
 <p align="center">
-<img src="/img/workshops/starter/Sensor_to_EduKit.png" width="50%" />
+<img src="/img/workshops/starter/Sensor_to_Kit.png" width="50%" />
 </p>
 
 ### Setting Up Your Sensor Demo Project
@@ -134,7 +134,7 @@ iot firmware generate --serial={serial number} --name=sensordemo
 The file will be named *sensor-demo-m5-arduino-esp32.zip*.
 :::
 
-10. With your EduKit connected to your computer via the USB-C cable, build and flash the firmware: 
+10. With your Core2 connected to your computer via the USB-C cable, build and flash the firmware: 
 ```
 iot firmware flash --zip=sensor-demo-m5-arduino-esp32.zip
 ```
@@ -166,11 +166,11 @@ iot device monitor --serial={serial}
 Data is not sent unless it goes past a certain delta threshold. This is to avoid flooding your AWS Account with irrelevant or unnecessary sensor data.
 :::
 
-15. Place the GPS Unit component (still attached to the EduKit, naturally) against a window to get a GPS signal. After a few minutes, you should see the EduKit screen icons change and will also see raw data that is being sent to the cloud displayed on your monitor.
+15. Place the GPS Unit component (still attached to the Core2, naturally) against a window to get a GPS signal. After a few minutes, you should see the Core2 screen icons change and will also see raw data that is being sent to the cloud displayed on your monitor.
 
 16. Use *CTRL-C* to get out of your monitor.
 
-17. Send a command from the console to your EduKit, as you did in *Hello World* example. Similar to that example, values can be _red_/_green_/_blue_/_off_, but this command changes the colors of the light bars on the side of the EduKit: 
+17. Send a command from the console to your Core2, as you did in *Hello World* example. Similar to that example, values can be _red_/_green_/_blue_/_off_, but this command changes the colors of the light bars on the side of the Core2: 
 ```
 iot data set --project={project} --serial={serial} --name=color --value=red
 ```
@@ -210,7 +210,7 @@ iot project list
 
 ## What you learned
 
-- How to connect wired sensors to the EduKit.
+- How to connect wired sensors to the Core2 for AWS IoT Kit SimpleIOT Starter Bundle.
 - To generate code to communicate with sensors and send data securely to/from the cloud.
 - To send environmental, location-based/GPS, and user-controlled (rotary knob) data to the cloud.
 - How to send real-time commands from the cloud *back* to a hardware component (the LED bars).
