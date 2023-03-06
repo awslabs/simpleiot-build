@@ -15,6 +15,7 @@ You can purchase the individual items directly from the manufacturer or your fav
     <tr>
         <td>M5Stack Core2 ESP32 IoT Development Kit</td>
         <td><a href="https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit" target="_blank">M5Stack shop</a></td>
+        <td>&nbsp;</td>
         <td><a href="https://www.mouser.com/ProductDetail/M5Stack/K010-AWS?qs=pUKx8fyJudDCzqLmZY12tw%3D%3D" target="_blank">Mouser</a></td>
     </tr>
     <tr>

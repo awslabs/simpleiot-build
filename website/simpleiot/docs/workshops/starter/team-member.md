@@ -186,4 +186,4 @@ It is recommended that each person create a project prefixed with a unique name 
 
 Congratulations! 
 
-Now that you are logged in, you can proceed to create an example connected device example. [The _Starter Workshop_](/docs/workshops/intro) will show you how to use the <a href="Core2 for AWS IoT Kit SimpleIOT Starter Bundle V1.0" target="_blank">_Core2 for AWS IoT Kit SimpleIOT Starter Bundle V1.0_</a>.
+Now that you are logged in, you can proceed to create an example connected device example. [The _Starter Workshop_](/docs/workshops/intro) will show you how to use the <a href="https://shop.m5stack.com/collections/m5-controllers/products/aws-iot-edukit-simpleiot-starter-bundle-v1-0" target="_blank">_Core2 for AWS IoT Kit SimpleIOT Starter Bundle V1.0_</a>.
